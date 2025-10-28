@@ -145,10 +145,37 @@ footer {
 
 .participants-list {
   list-style: none;
-  padding-left: 20px;
+  padding-left: 0;
   margin-top: 5px;
 }
 
-.participants-list li {
-  margin-bottom: 3px;
+.participant-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 8px;
+  border-radius: 4px;
+  background: #fff;
+  margin-bottom: 6px;
+  border: 1px solid #eee;
+  font-size: 14px;
+}
+
+.participant-email {
+  color: #333;
+  margin-right: 8px;
+  word-break: break-all;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+.delete-btn:hover {
+  background: rgba(198,40,40,0.08);
 }
